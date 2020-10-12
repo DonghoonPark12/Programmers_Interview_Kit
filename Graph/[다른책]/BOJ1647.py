@@ -52,6 +52,6 @@ def kruskal(n, m):
             #mst.append(g)
             total += w
             _max = max(_max, w)
-    return total - _max
+    return total - _max #[TODO] N - 2가 어떻게 종료 조건이 될 수 있는지??
 
 print(kruskal(N, M))
