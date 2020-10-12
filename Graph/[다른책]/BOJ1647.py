@@ -4,7 +4,7 @@ N, M = map(int, stdin.readline().split())
 
 parent = {}
 rank = {}
-mst = []
+#mst = []
 
 def find(node):
     if parent[node] != node:
@@ -49,7 +49,7 @@ def kruskal(n, m):
         w, a, b= g
         if find(a) != find(b):
             union(a, b)
-            mst.append(g)
+            #mst.append(g)
             total += w
             _max = max(_max, w)
     return total - _max
