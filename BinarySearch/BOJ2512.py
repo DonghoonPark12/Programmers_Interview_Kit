@@ -1,15 +1,9 @@
 '''
+이분 탐색 문제
 while(left <= right):
 (...)
 left = mid + 1
-right = mid
-할때도 있고, 아래 처럼
-
-while(left <= right):
-left = mid + 1
 right = mid - 1
-할때도 있다.
-
 '''
 from sys import stdin
 
