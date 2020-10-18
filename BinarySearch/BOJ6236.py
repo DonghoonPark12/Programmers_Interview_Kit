@@ -7,7 +7,6 @@ def binarySearch():
     moneySum = sum(arrN)
     left = max(arrN) #최소는 max(arrN) 항상 M은 N이 된다.
     right = moneySum #최대는 돈의 총합. 항상 M은 0이 된다.
-    res = 0
     while(left <= right):
         mid = (left + right) // 2 # 인출할 돈 (가정)
         cnt = 1                   # 최초 한번 출금
@@ -19,10 +18,9 @@ def binarySearch():
             le -= ele
 
         if (M >= cnt):
-            res = mid
             right = mid - 1
         else:
             left = mid + 1
+    return left
 
-    return res
 print(binarySearch())
