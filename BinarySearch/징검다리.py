@@ -1,7 +1,7 @@
 '''
 제거한 갯수(cnt)를 기준으로
 n보다 작거나 같으면 left = mid + 1
-n보다 크면 right = mid
+n보다 크면 right = mid - 1
 '''
 def solution(distance, rocks, n):
     ans = 0
@@ -10,7 +10,7 @@ def solution(distance, rocks, n):
     left = 1
     right = distance
     
-    while(left < right):
+    while(left <= right):
         cnt = 0
         prev = 0
         mid = (left + right) // 2
@@ -29,5 +29,5 @@ def solution(distance, rocks, n):
                 ans = mid
             left = mid + 1
         else:
-            right = mid
+            right = mid - 1
     return ans
