@@ -1,8 +1,8 @@
-'''
+/*
 dfs로 그래프 탐색하면서 방문되었을 경우 visit 배열을 trigger 시킨다.
 e.g.
 첫번재 dfs 탐색에서 모든 노드가 방문되었다면, 1을 리턴한다.
-'''
+*/
 #include <string>
 #include <vector>
 #include <algorithm>
