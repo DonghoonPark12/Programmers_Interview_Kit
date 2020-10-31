@@ -1,5 +1,10 @@
 '''
 PyPy3으로 선택해야 통과된다.
+
+<풀이>
+윈도우를 이동 시켜 가면서, 
+해당 윈도우에 속한 배열 원소 중에서 
+배열의 가장 작은 값을 가지는 배열 인덱스를 덱에 포함 시켜 준다. 
 '''
 from sys import stdin
 from collections import deque
