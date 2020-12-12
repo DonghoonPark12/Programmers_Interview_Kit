@@ -1,3 +1,7 @@
+'''
+10282.해킹
+Dijkstra 문제
+'''
 import sys
 import heapq
 from collections import defaultdict
