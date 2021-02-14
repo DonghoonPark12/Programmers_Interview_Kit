@@ -9,7 +9,7 @@
 
 https://programmers.co.kr/learn/courses/30/lessons/17676?language=python3
 '''
-def Time_Interval(t1, t2, t2T):
+def Process_Possible(t1, t2, t2T):
     '''
         t1 - (t2 - t2T + 0.001) 이 1s 미만인지 파악
         음수일 수도 있다.
@@ -67,7 +67,7 @@ def solution(lines):
         for j in range(i+1, len(lines)):
             Sn = lines[j].split(' ')[1]
             Sn_T = lines[j].split(' ')[2]
-            if Time_Interval(S, Sn, Sn_T):
+            if Process_Possible(S, Sn, Sn_T):
                cnt += 1 
 
             mpps = max(cnt, mpps)            
