@@ -12,6 +12,7 @@ for (int i = 0; i < n ; i++) {
   
 
 - 트리 순회 : [BOJ 1991](https://www.acmicpc.net/problem/1991)  
-- 트리의 부모 찾기 : [BOJ 11725](https://www.acmicpc.net/problem/11725)  
-
+- 트리의 부모 찾기 : [BOJ 11725](https://www.acmicpc.net/problem/11725) 
+-  Maximum Depth of Binary Tree : [Leet 104](https://leetcode.com/problems/maximum-depth-of-binary-tree/)
+-  
 
